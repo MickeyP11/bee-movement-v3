@@ -55,6 +55,9 @@ if(score>=25){
     BeeWin winScreen = new BeeWin(); 
     Greenfoot.setWorld(winScreen);
 }
-
+if (score<0){
+            SpiderWin winScreen = new SpiderWin(); 
+    Greenfoot.setWorld(winScreen);
+}
 }
 }
