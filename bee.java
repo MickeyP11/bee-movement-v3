@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -55,6 +56,7 @@ if(score>=25){
     BeeWin winScreen = new BeeWin(); 
     Greenfoot.setWorld(winScreen);
 }
+//spider win
 if (score<0){
             SpiderWin winScreen = new SpiderWin(); 
     Greenfoot.setWorld(winScreen);
