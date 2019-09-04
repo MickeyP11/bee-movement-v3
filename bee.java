@@ -51,7 +51,7 @@ boolean contactCactus = isTouching(Cactus.class);
            removeTouching(Cactus.class);
 }
 //Check  if win
-if(score>=12){
+if(score>=25){
     BeeWin winScreen = new BeeWin(); 
     Greenfoot.setWorld(winScreen);
 }
