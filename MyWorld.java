@@ -1,4 +1,4 @@
-//Mikayla
+//Mikayla P
 
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
