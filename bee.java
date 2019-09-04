@@ -42,12 +42,18 @@ public class bee extends Actor
         
     
 }
-    boolean contactCactus = isTouching(Cactus.class);
+//catus time    
+boolean contactCactus = isTouching(Cactus.class);
         if(contactCactus){
              Cactus poison =(Cactus) getOneIntersectingObject(Cactus.class);
            int poisonScore = poison.getScore();
            score= score - poisonScore;
            removeTouching(Cactus.class);
+}
+//Check  if win
+if(score>=12){
+    BeeWin winScreen = new BeeWin(); 
+    Greenfoot.setWorld(winScreen);
 }
 }
 }
