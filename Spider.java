@@ -42,5 +42,9 @@ public class Spider extends Actor
             SpiderWin winScreen = new SpiderWin(); 
     Greenfoot.setWorld(winScreen);
 }
+if (score<0){
+    BeeWin winScreen = new BeeWin(); 
+    Greenfoot.setWorld(winScreen);
+}
 }
 }
