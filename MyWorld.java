@@ -32,6 +32,14 @@ public class MyWorld extends World
         addObject(k3, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         K k4 = new K();
         addObject(k4, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        K k5 = new K();
+        addObject(k5, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        K k6 = new K();
+        addObject(k6, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+         K k7 = new K();
+        addObject(k7, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        K k8 = new K();
+        addObject(k8, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         
         YellowBalloon balloon1 = new YellowBalloon();
         addObject(balloon1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
@@ -50,6 +58,13 @@ public class MyWorld extends World
         addObject(nana3, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         YellowNana nana4 = new YellowNana();
         addObject(nana4, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        YellowNana nana5 = new YellowNana();
+        addObject(nana5, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        YellowNana nana6 = new YellowNana();
+        addObject(nana6, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        YellowNana nana7 = new YellowNana();
+        addObject(nana7, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        
         
         //spider
         Spider spider1 =new Spider();
@@ -64,6 +79,14 @@ public class MyWorld extends World
         addObject(ga3, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         GreenApple ga4 =new GreenApple();
         addObject(ga4, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenApple ga5 =new GreenApple();
+        addObject(ga5, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenApple ga6 =new GreenApple();
+        addObject(ga6, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenApple ga7 =new GreenApple();
+        addObject(ga7, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenApple ga8 =new GreenApple();
+        addObject(ga8, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         
         GreenBoy gb1 =new GreenBoy();
         addObject(ga1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
@@ -82,5 +105,11 @@ public class MyWorld extends World
         addObject(gg3, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         GreenGrass gg4 =new GreenGrass();
         addObject(gg4, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenGrass gg5 =new GreenGrass();
+        addObject(gg5, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenGrass gg6 =new GreenGrass();
+        addObject(gg6, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenGrass gg7 =new GreenGrass();
+        addObject(gg7, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
     }
 }
