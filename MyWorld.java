@@ -22,24 +22,46 @@ public class MyWorld extends World
         //bees
         bee bee1 = new bee();
         addObject(bee1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
-        bee bee2 = new bee();
-        addObject(bee2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        
         //flowers
         K k1 = new K();
         addObject(k1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        K k2 = new K();
+        addObject(k2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         
        
         YellowBalloon balloon1 = new YellowBalloon();
         addObject(balloon1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        YellowBalloon balloon2 = new YellowBalloon();
+        addObject(balloon2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        
         
         YellowNana nana1 = new YellowNana();
         addObject(nana1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        YellowNana nana2 = new YellowNana();
+        addObject(nana2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        
         
         //spider
         Spider spider1 =new Spider();
         addObject(spider1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         
         //cacti
+        GreenApple ga1 =new GreenApple();
+        addObject(ga1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenApple ga2 =new GreenApple();
+        addObject(ga2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
         
+        
+        GreenBoy gb1 =new GreenBoy();
+        addObject(ga1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenBoy gb2 =new GreenBoy();
+        addObject(ga2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+     
+        
+        GreenGrass gg1 =new GreenGrass();
+        addObject(gg1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
+        GreenGrass gg2 =new GreenGrass();
+        addObject(gg2, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
     }
 }
