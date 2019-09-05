@@ -38,12 +38,12 @@ public class Spider extends Actor
            score= score - poisonScore;
            removeTouching(Flower.class); 
 }           
-        if (score>=10){
+        if (score>=17){
             SpiderWin winScreen = new SpiderWin(); 
     Greenfoot.setWorld(winScreen);
 }
 //bee wins
-if (score<=-10){
+if (score<=-17){
     BeeWin winScreen = new BeeWin(); 
     Greenfoot.setWorld(winScreen);
 }
