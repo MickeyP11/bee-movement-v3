@@ -10,7 +10,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class bee extends Actor
 {
     private int score = 0;
-    
+    //if insect gets overwhelmed extra bit for later VVVVV
+    //private int cactusEaten = 0;
     
     
     
@@ -39,6 +40,7 @@ public class bee extends Actor
         Flower plant = (Flower) getOneIntersectingObject(Flower.class);
         int plantScore = plant.getScore();
         score = plantScore + score;
+        
         removeTouching(Flower.class);
         
     
@@ -46,7 +48,7 @@ public class bee extends Actor
 //catus time    
 boolean contactCactus = isTouching(Cactus.class);
         if(contactCactus){
-             Cactus poison =(Cactus) getOneIntersectingObject(Cactus.class);
+           Cactus poison =(Cactus) getOneIntersectingObject(Cactus.class);
            int poisonScore = poison.getScore();
            score= score - poisonScore;
            removeTouching(Cactus.class);
@@ -57,7 +59,7 @@ if(score>=25){
     Greenfoot.setWorld(winScreen);
 }
 //spider win
-if (score<=25){
+if (score<=-25){
             SpiderWin winScreen = new SpiderWin(); 
     Greenfoot.setWorld(winScreen);
 }
