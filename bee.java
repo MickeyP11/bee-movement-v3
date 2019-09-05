@@ -57,7 +57,7 @@ if(score>=25){
     Greenfoot.setWorld(winScreen);
 }
 //spider win
-if (score<0){
+if (score<=25){
             SpiderWin winScreen = new SpiderWin(); 
     Greenfoot.setWorld(winScreen);
 }
