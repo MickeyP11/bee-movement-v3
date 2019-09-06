@@ -63,5 +63,6 @@ if (score<=-17){
             SpiderWin winScreen = new SpiderWin(); 
     Greenfoot.setWorld(winScreen);
 }
+
 }
 }

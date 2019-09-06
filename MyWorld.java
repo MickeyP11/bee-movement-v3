@@ -18,7 +18,8 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1, false); 
+        super(600, 400, 1, false);
+        
         //bees
         bee bee1 = new bee();
         addObject(bee1, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
@@ -112,4 +113,13 @@ public class MyWorld extends World
         GreenGrass gg7 =new GreenGrass();
         addObject(gg7, Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
     }
-}
+    public void act() {
+            if( numberOfObjects() == 2){
+            Tie TieScreen = new Tie();
+            Greenfoot.setWorld(TieScreen);
+            }
+
+
+
+        }
+    }
